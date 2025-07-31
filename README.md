@@ -5,7 +5,7 @@
 ``` sh
 git submodule update --init
 docker build -t mpitutorial .
-docker run -p 4000:4000 mpitutorial
+docker run --rm -p 4000:4000 mpitutorial
 ```
 
 and visit <http://localhost:4000/tutorials/>.
