@@ -35,7 +35,7 @@ docker build -t mpitutorial .
 
 ``` sh
 docker build -t mpitutorial .
-docker run -it -p 4000:4000 mpitutorial
+docker run --rm -p 4000:4000 mpitutorial
 # Ctrl-C to stop
 ```
 
