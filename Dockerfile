@@ -4,6 +4,7 @@ COPY ./mpitutorial /mpitutorial
 
 WORKDIR /mpitutorial
 
+# Outdated lock-file - causes an error unless we remove it
 RUN rm Gemfile.lock
 
 RUN bundle install
