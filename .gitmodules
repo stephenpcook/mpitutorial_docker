@@ -1,0 +1,3 @@
+[submodule "mpitutorial"]
+	path = mpitutorial
+	url = https://github.com/stephenpcook/mpitutorial.git
